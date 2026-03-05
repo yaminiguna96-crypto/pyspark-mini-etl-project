@@ -1,0 +1,7 @@
+order_id,customer,product,amount,region
+1,Alice,Laptop,800,South
+2,Bob,Mobile,400,North
+3,Alice,Tablet,300,South
+4,David,Laptop,900,West
+5,Emma,Mobile,500,East
+6,Bob,Tablet,200,North
