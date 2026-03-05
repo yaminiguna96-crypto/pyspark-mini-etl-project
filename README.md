@@ -1,30 +1,34 @@
-# pyspark-mini-etl-project
-Mini ETL Sales Pipeline using PySpark
-# Mini ETL Sales Pipeline using PySpark
+# PySpark Mini ETL Sales Pipeline
 
 ## 📌 Project Overview
-This project demonstrates a simple ETL pipeline built using PySpark.
+This project demonstrates a Mini ETL pipeline using PySpark.
 
-## 🔄 ETL Process
-1. Extract: Loaded sales data into Spark DataFrame  
-2. Transform:
-   - Removed null values  
-   - Removed duplicate records  
-   - Calculated department-wise total sales  
-   - Computed month-over-month sales growth using window functions  
-3. Load:
-   - Stored cleaned data in Parquet format partitioned by department  
+The pipeline performs:
+- Data Extraction (Sample Sales Data)
+- Data Transformation (Aggregation, Filtering)
+- Data Loading (Output as CSV)
 
-## 🛠 Technologies Used
+## 🛠️ Technologies Used
 - Python
 - PySpark
-- Window Functions
-- Parquet
+- Spark SQL
+- GitHub
 
-## 📊 Concepts Covered
-- dropna()
-- dropDuplicates()
-- groupBy()
-- lag()
-- partitionBy()
-- DataFrame API
+## 📊 Transformations Performed
+- Created SparkSession
+- DataFrame creation
+- Group By and Aggregations
+- Filtering
+- Column transformation
+- Writing output to CSV
+
+## 🚀 How to Run
+1. Install PySpark
+2. Run the script:
+   python mini_etl_sales_pipeline.py
+
+## 📁 Output
+Aggregated sales output saved as CSV.
+
+## 👩‍💻 Author
+Yamini – Data Engineer | PySpark Developer
